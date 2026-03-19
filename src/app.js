@@ -164,7 +164,7 @@ function renderStudy(batchIdx) {
   const cards = batch.map(item => {
     const { hoon, eum } = parseMeaning(item.meaning);
     return `
-      <div class="study-card">
+      <div class="study-card" onclick="this.classList.toggle('study-card--checked')">
         <span class="study-kanji">${item.kanji}</span>
         <span class="study-eum">${eum}</span>
         <span class="study-hoon">${hoon}</span>

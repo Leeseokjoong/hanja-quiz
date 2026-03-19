@@ -1618,6 +1618,24 @@ footer {
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
 }
 
+.study-card--checked {
+    background: linear-gradient(135deg, #e8f8ee 0%, #c8f0d4 100%);
+    border-color: #27ae60;
+    cursor: pointer;
+}
+
+.study-card--checked .study-kanji {
+    color: #1a6e3a;
+}
+
+.study-card--checked .study-eum {
+    color: #27ae60;
+}
+
+.study-card--checked .study-hoon {
+    color: #2ecc71;
+}
+
 .study-kanji {
     font-size: 2.2rem;
     font-weight: bold;
@@ -1667,5 +1685,159 @@ footer {
     font-size: 0.9rem;
     color: #888;
     margin-top: 4px;
+}
+
+/* ===== 모바일 퀴즈 화면 맞춤 (스크롤 방지) ===== */
+@media (max-width: 540px) {
+    body {
+        padding: 0;
+        align-items: stretch;
+    }
+
+    .container {
+        border-radius: 0;
+        padding: 12px;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+        margin-bottom: 6px;
+    }
+
+    header img.logo {
+        max-width: 70px !important;
+        margin-bottom: 6px !important;
+    }
+
+    .ad-banner {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #app {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ── 퀴즈 화면 ── */
+    .quiz-screen {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 8px;
+        overflow: hidden;
+    }
+
+    .quiz-header {
+        flex-shrink: 0;
+        margin-bottom: 8px;
+        font-size: 0.82rem;
+    }
+
+    .quiz-progress-bar {
+        flex-shrink: 0;
+        margin-bottom: 10px;
+    }
+
+    .quiz-content {
+        flex: 1;
+        margin-bottom: 10px;
+        min-height: unset;
+        justify-content: center;
+    }
+
+    .kanji {
+        font-size: 2.6rem;
+        margin-bottom: 10px;
+    }
+
+    .meaning {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    .quiz-type-label {
+        font-size: 0.78rem;
+        margin-bottom: 10px;
+    }
+
+    .meaning-large {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .script {
+        font-size: 0.92rem;
+        margin-bottom: 8px;
+    }
+
+    .quiz-question {
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+    }
+
+    .options-grid {
+        flex-shrink: 0;
+        gap: 8px;
+        margin-bottom: 0;
+    }
+
+    .option-btn {
+        padding: 14px 8px;
+        font-size: 1rem;
+    }
+
+    .skip-btn {
+        flex-shrink: 0;
+        margin-top: 8px;
+        padding: 10px;
+    }
+
+    /* ── 정답/오답 피드백 화면 ── */
+    .feedback-box {
+        flex: 1;
+        padding: 18px 16px;
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feedback-box h2 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+
+    .kanji-big {
+        font-size: 2.4rem;
+    }
+
+    .kanji-info {
+        font-size: 1rem;
+    }
+
+    .feedback-meaning {
+        font-size: 0.92rem;
+        margin-bottom: 10px;
+    }
+
+    .hint-box {
+        font-size: 0.88rem;
+        padding: 10px 12px;
+    }
+
+    .next-btn {
+        flex-shrink: 0;
+        padding: 13px;
+        margin-top: 6px;
+    }
 }
  
