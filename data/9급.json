@@ -1,0 +1,224 @@
+{
+  "level": "9급",
+  "master_kanji_count": 100,
+  "categories": [
+    {
+      "category_name": "숫자와 단위",
+      "kanji_count": 13,
+      "kanji_list": [
+        {"kanji": "一", "meaning": "한 일"},
+        {"kanji": "二", "meaning": "두 이"},
+        {"kanji": "三", "meaning": "석 삼"},
+        {"kanji": "四", "meaning": "넉 사"},
+        {"kanji": "五", "meaning": "다섯 오"},
+        {"kanji": "六", "meaning": "여섯 육"},
+        {"kanji": "七", "meaning": "일곱 칠"},
+        {"kanji": "八", "meaning": "여덟 팔"},
+        {"kanji": "九", "meaning": "아홉 구"},
+        {"kanji": "十", "meaning": "열 십"},
+        {"kanji": "百", "meaning": "일백 백"},
+        {"kanji": "千", "meaning": "일천 천"},
+        {"kanji": "萬", "meaning": "일만 만"}
+      ]
+    },
+    {
+      "category_name": "자연과 요일",
+      "kanji_count": 15,
+      "kanji_list": [
+        {"kanji": "日", "meaning": "날 일/해 일"},
+        {"kanji": "月", "meaning": "달 월"},
+        {"kanji": "火", "meaning": "불 화"},
+        {"kanji": "水", "meaning": "물 수"},
+        {"kanji": "木", "meaning": "나무 목"},
+        {"kanji": "金", "meaning": "쇠 금/성 김"},
+        {"kanji": "土", "meaning": "흙 토"},
+        {"kanji": "天", "meaning": "하늘 천"},
+        {"kanji": "地", "meaning": "땅 지"},
+        {"kanji": "山", "meaning": "뫼 산"},
+        {"kanji": "川", "meaning": "내 천"},
+        {"kanji": "江", "meaning": "강 강"},
+        {"kanji": "石", "meaning": "돌 석"},
+        {"kanji": "花", "meaning": "꽃 화"},
+        {"kanji": "草", "meaning": "풀 초"}
+      ]
+    },
+    {
+      "category_name": "방향과 위치",
+      "kanji_count": 9,
+      "kanji_list": [
+        {"kanji": "東", "meaning": "동녁 동"},
+        {"kanji": "西", "meaning": "서녁 서"},
+        {"kanji": "南", "meaning": "남녘 남"},
+        {"kanji": "北", "meaning": "북녘 북"},
+        {"kanji": "上", "meaning": "윗 상"},
+        {"kanji": "下", "meaning": "아래 하"},
+        {"kanji": "左", "meaning": "왼 좌"},
+        {"kanji": "右", "meaning": "오른 우"},
+        {"kanji": "中", "meaning": "가운데 중"}
+      ]
+    },
+    {
+      "category_name": "신체와 인간",
+      "kanji_count": 13,
+      "kanji_list": [
+        {"kanji": "人", "meaning": "사람 인"},
+        {"kanji": "子", "meaning": "아들 자"},
+        {"kanji": "女", "meaning": "여자 녀"},
+        {"kanji": "男", "meaning": "사내 남"},
+        {"kanji": "父", "meaning": "아비 부"},
+        {"kanji": "母", "meaning": "어미 모"},
+        {"kanji": "兄", "meaning": "형 형"},
+        {"kanji": "弟", "meaning": "아우 제"},
+        {"kanji": "心", "meaning": "마음 심"},
+        {"kanji": "口", "meaning": "입 구"},
+        {"kanji": "耳", "meaning": "귀 이"},
+        {"kanji": "目", "meaning": "눈 목"},
+        {"kanji": "手", "meaning": "손 수"}
+      ]
+    },
+    {
+      "category_name": "교육과 생활",
+      "kanji_count": 20,
+      "kanji_list": [
+        {"kanji": "學", "meaning": "배울 학"},
+        {"kanji": "校", "meaning": "학교 교"},
+        {"kanji": "先", "meaning": "먼저 선"},
+        {"kanji": "生", "meaning": "날 생"},
+        {"kanji": "師", "meaning": "스승 사"},
+        {"kanji": "門", "meaning": "문 문"},
+        {"kanji": "入", "meaning": "들 입"},
+        {"kanji": "出", "meaning": "날 출"},
+        {"kanji": "立", "meaning": "설 립"},
+        {"kanji": "止", "meaning": "그칠 지"},
+        {"kanji": "正", "meaning": "바를 정"},
+        {"kanji": "大", "meaning": "큰 대"},
+        {"kanji": "小", "meaning": "작을 소"},
+        {"kanji": "長", "meaning": "길 장/어른 장"},
+        {"kanji": "高", "meaning": "높을 고"},
+        {"kanji": "白", "meaning": "흰 백"},
+        {"kanji": "靑", "meaning": "푸를 청"},
+        {"kanji": "赤", "meaning": "붉을 적"},
+        {"kanji": "本", "meaning": "근본 본"},
+        {"kanji": "名", "meaning": "이름 명"}
+      ]
+    },
+    {
+      "category_name": "시간과 기타",
+      "kanji_count": 30,
+      "kanji_list": [
+        {"kanji": "年", "meaning": "해 년"},
+        {"kanji": "月", "meaning": "달 월"},
+        {"kanji": "日", "meaning": "날 일"},
+        {"kanji": "時", "meaning": "때 시"},
+        {"kanji": "午", "meaning": "낮 오"},
+        {"kanji": "今", "meaning": "이제 금"},
+        {"kanji": "內", "meaning": "안 내"},
+        {"kanji": "外", "meaning": "바깥 외"},
+        {"kanji": "方", "meaning": "모 방"},
+        {"kanji": "力", "meaning": "힘 력"},
+        {"kanji": "工", "meaning": "장인 공"},
+        {"kanji": "車", "meaning": "수레 차"},
+        {"kanji": "氣", "meaning": "기운 기"},
+        {"kanji": "王", "meaning": "임금 왕"},
+        {"kanji": "國", "meaning": "나라 국"},
+        {"kanji": "民", "meaning": "백성 민"},
+        {"kanji": "夫", "meaning": "지아비 부"},
+        {"kanji": "世", "meaning": "대 세"},
+        {"kanji": "代", "meaning": "대신할 대"},
+        {"kanji": "平", "meaning": "평평할 평"},
+        {"kanji": "安", "meaning": "편안할 안"},
+        {"kanji": "全", "meaning": "온전할 전"},
+        {"kanji": "多", "meaning": "많을 다"},
+        {"kanji": "少", "meaning": "적을 소"},
+        {"kanji": "半", "meaning": "반 반"},
+        {"kanji": "分", "meaning": "나눌 분"},
+        {"kanji": "化", "meaning": "될 화"},
+        {"kanji": "用", "meaning": "쓸 용"},
+        {"kanji": "有", "meaning": "있을 유"},
+        {"kanji": "無", "meaning": "없을 무"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q9_01",
+      "category": "신체와 인간",
+      "required_kanji": ["父", "母"],
+      "word_hanja": "父母",
+      "word_hangul": "부모",
+      "meaning": "나를 낳아주신 아버지와 어머니",
+      "game_script": "마을 어귀에서 아이가 울고 있어! 어서 아이의 [  ]님을 찾아주자.",
+      "literacy_hint": "아비 부(父)와 어미 모(母)가 합쳐진 글자야."
+    },
+    {
+      "id": "q9_02",
+      "category": "교육과 생활",
+      "required_kanji": ["學", "校"],
+      "word_hanja": "學校",
+      "word_hangul": "학교",
+      "meaning": "공부하고 배우는 곳",
+      "game_script": "아침 종이 울린다! 어서 (  )에 갈 준비를 해야지?",
+      "literacy_hint": "배울 학(學)과 학교 교(校)가 합쳐져서 '배우는 집'이라는 뜻이란다."
+    },
+    {
+      "id": "q9_03",
+      "category": "방향과 위치",
+      "required_kanji": ["東", "西"],
+      "word_hanja": "東西",
+      "word_hangul": "동서",
+      "meaning": "동쪽과 서쪽, 또는 물건·사물을 뜻함",
+      "game_script": "길을 잃었어! 해가 떠오르는 동쪽은 어디고 지는 서쪽은 어디야? [  ]를 구분해야 해!",
+      "literacy_hint": "동녁 동(東)과 서녁 서(西)를 합쳐서 방향을 나타낸단다."
+    },
+    {
+      "id": "q9_04",
+      "category": "자연과 요일",
+      "required_kanji": ["山", "川"],
+      "word_hanja": "山川",
+      "word_hangul": "산천",
+      "meaning": "산과 내, 자연 풍경",
+      "game_script": "이 땅의 대자연을 표현하려면? 뫼 산(山)과 내 천(川)이 [  ]를 이루고 있다!",
+      "literacy_hint": "뫼 산(山)과 내 천(川)을 합쳐서 자연 풍경을 나타낸단다."
+    },
+    {
+      "id": "q9_05",
+      "category": "숫자와 단위",
+      "required_kanji": ["百", "年"],
+      "word_hanja": "百年",
+      "word_hangul": "백년",
+      "meaning": "백 해, 오래된 시간",
+      "game_script": "할머니가 말씀하셨어. '우리 가족은 [  ]를 지켜온 집안이야.'",
+      "literacy_hint": "일백 백(百)과 해 년(年)을 합쳐서 긴 시간을 나타낸단다."
+    },
+    {
+      "id": "q9_06",
+      "category": "교육과 생활",
+      "required_kanji": ["先", "生"],
+      "word_hanja": "先生",
+      "word_hangul": "선생",
+      "meaning": "스승, 도움을 주는 사람",
+      "game_script": "학교에 가니 우리를 가르쳐주시는 분이 있어. 그분을 뭐라고 부를까? [  ]님이라고 불러!",
+      "literacy_hint": "먼저 선(先)과 날 생(生)을 합쳐서 도움을 주는 분을 나타낸단다."
+    },
+    {
+      "id": "q9_07",
+      "category": "신체와 인간",
+      "required_kanji": ["男", "女"],
+      "word_hanja": "男女",
+      "word_hangul": "남녀",
+      "meaning": "남자와 여자",
+      "game_script": "운동회 날이다! 모두가 함께 달려! 사내 남(男)과 여자 녀(女)가 [  ]로 나뉜다!",
+      "literacy_hint": "사내 남(男)과 여자 녀(女)를 합쳐서 모든 사람을 나타낸단다."
+    },
+    {
+      "id": "q9_08",
+      "category": "교육과 생활",
+      "required_kanji": ["大", "小"],
+      "word_hanja": "大小",
+      "word_hangul": "대소",
+      "meaning": "크기, 큰 것과 작은 것",
+      "game_script": "이 마을에는 [  ]의 집들이 섞여 있어. 큰 집도 있고 작은 집도 있지!",
+      "literacy_hint": "큰 대(大)와 작을 소(小)를 합쳐서 크기를 나타낸단다."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "level": "5급",
+  "master_kanji_count": 300,
+  "categories": [
+    {
+      "category_name": "사회 조직과 경제",
+      "kanji_count": 70,
+      "kanji_list": [
+        {"kanji": "政", "meaning": "정사 정"},
+        {"kanji": "治", "meaning": "다스릴 치"},
+        {"kanji": "權", "meaning": "권세 권"},
+        {"kanji": "利", "meaning": "이로울 리"},
+        {"kanji": "議", "meaning": "의논할 의"},
+        {"kanji": "團", "meaning": "모임 단"},
+        {"kanji": "産", "meaning": "낳을 산"},
+        {"kanji": "業", "meaning": "업 업"},
+        {"kanji": "財", "meaning": "재물 재"},
+        {"kanji": "貨", "meaning": "재화 화"},
+        {"kanji": "費", "meaning": "쓸 비"},
+        {"kanji": "貿", "meaning": "무역할 무"},
+        {"kanji": "易", "meaning": "바꿀 역"},
+        {"kanji": "市", "meaning": "저자 시"},
+        {"kanji": "場", "meaning": "마당 장"},
+        {"kanji": "商", "meaning": "장사 상"},
+        {"kanji": "社", "meaning": "회사 사"},
+        {"kanji": "企", "meaning": "뜻 기"},
+        {"kanji": "業", "meaning": "업 업"},
+        {"kanji": "工", "meaning": "장인 공"}
+      ]
+    },
+    {
+      "category_name": "추상적 개념과 논리",
+      "kanji_count": 80,
+      "kanji_list": [
+        {"kanji": "理", "meaning": "다스릴 리"},
+        {"kanji": "想", "meaning": "생각 상"},
+        {"kanji": "觀", "meaning": "볼 관"},
+        {"kanji": "察", "meaning": "살필 찰"},
+        {"kanji": "認", "meaning": "알 인"},
+        {"kanji": "識", "meaning": "알 식"},
+        {"kanji": "性", "meaning": "성품 성"},
+        {"kanji": "格", "meaning": "격식 격"},
+        {"kanji": "態", "meaning": "모습 태"},
+        {"kanji": "度", "meaning": "법도 도"},
+        {"kanji": "限", "meaning": "한정할 한"},
+        {"kanji": "制", "meaning": "절제할 제"},
+        {"kanji": "法", "meaning": "법 법"},
+        {"kanji": "則", "meaning": "법칙 칙"},
+        {"kanji": "則", "meaning": "규칙 칙"},
+        {"kanji": "規", "meaning": "규칙 규"},
+        {"kanji": "範", "meaning": "본 범"},
+        {"kanji": "基", "meaning": "근본 기"},
+        {"kanji": "準", "meaning": "준칙 준"},
+        {"kanji": "原", "meaning": "근원 원"}
+      ]
+    },
+    {
+      "category_name": "학문과 기술",
+      "kanji_count": 70,
+      "kanji_list": [
+        {"kanji": "史", "meaning": "역사 사"},
+        {"kanji": "誌", "meaning": "기록할 지"},
+        {"kanji": "算", "meaning": "셈 산"},
+        {"kanji": "數", "meaning": "셀 수"},
+        {"kanji": "科", "meaning": "과목 과"},
+        {"kanji": "技", "meaning": "재주 기"},
+        {"kanji": "能", "meaning": "능할 능"},
+        {"kanji": "器", "meaning": "그릇 기"},
+        {"kanji": "具", "meaning": "갖출 구"},
+        {"kanji": "設", "meaning": "베풀 설"},
+        {"kanji": "備", "meaning": "갖출 비"},
+        {"kanji": "境", "meaning": "지경 경"},
+        {"kanji": "界", "meaning": "지경 계"},
+        {"kanji": "環", "meaning": "고리 환"},
+        {"kanji": "境", "meaning": "경계 경"},
+        {"kanji": "自然", "meaning": "자연 자"},
+        {"kanji": "物", "meaning": "물건 물"},
+        {"kanji": "質", "meaning": "바탕 질"},
+        {"kanji": "形", "meaning": "모양 형"},
+        {"kanji": "象", "meaning": "모양 상"}
+      ]
+    },
+    {
+      "category_name": "일상 행동과 심리",
+      "kanji_count": 80,
+      "kanji_list": [
+        {"kanji": "願", "meaning": "원할 원"},
+        {"kanji": "望", "meaning": "바랄 망"},
+        {"kanji": "努", "meaning": "힘쓸 노"},
+        {"kanji": "勉", "meaning": "힘쓸 면"},
+        {"kanji": "參", "meaning": "참가할 참"},
+        {"kanji": "加", "meaning": "더할 가"},
+        {"kanji": "助", "meaning": "도울 조"},
+        {"kanji": "出", "meaning": "날 출"},
+        {"kanji": "入", "meaning": "들 입"},
+        {"kanji": "送", "meaning": "보낼 송"},
+        {"kanji": "受", "meaning": "받을 수"},
+        {"kanji": "取", "meaning": "가질 취"},
+        {"kanji": "給", "meaning": "줄 급"},
+        {"kanji": "優", "meaning": "우월할 우"},
+        {"kanji": "劣", "meaning": "떨어질 열"},
+        {"kanji": "優", "meaning": "우수할 우"},
+        {"kanji": "敗", "meaning": "질 패"},
+        {"kanji": "勝", "meaning": "이길 승"},
+        {"kanji": "負", "meaning": "질 부"},
+        {"kanji": "昇", "meaning": "오를 승"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q5_01",
+      "category": "사회 조직과 경제",
+      "required_kanji": ["政", "治"],
+      "word_hanja": "政治",
+      "word_hangul": "정치",
+      "meaning": "나라를 다스리는 일",
+      "game_script": "나라가 잘 돌아가려면 [  ]가 중요해! 올바른 [  ]를 통해 모두 행복해진단다.",
+      "literacy_hint": "정사 정(政)과 다스릴 치(治)를 합쳐서 나라 운영을 나타낸다."
+    },
+    {
+      "id": "q5_02",
+      "category": "추상적 개념과 논리",
+      "required_kanji": ["理", "性"],
+      "word_hanja": "理性",
+      "word_hangul": "이성",
+      "meaning": "이성적인 판단",
+      "game_script": "감정만 앞세우지 말고 [  ]를 가지고 생각해야 한다!",
+      "literacy_hint": "이치 리(理)와 성품 성(性)을 합쳐서 이성적인 판단을 나타낸다."
+    },
+    {
+      "id": "q5_03",
+      "category": "학문과 기술",
+      "required_kanji": ["史", "誌"],
+      "word_hanja": "史誌",
+      "word_hangul": "사지",
+      "meaning": "역사책과 기록",
+      "game_script": "과거를 배우기 위해 [  ]를 읽어야 해. 역사를 통해 미래를 봐야 한단다!",
+      "literacy_hint": "역사 사(史)와 기록할 지(誌)를 합쳐서 역사 기록을 나타낸다."
+    },
+    {
+      "id": "q5_04",
+      "category": "일상 행동과 심리",
+      "required_kanji": ["勉", "強"],
+      "word_hanja": "勉强",
+      "word_hangul": "면강",
+      "meaning": "힘써서 노력하기",
+      "game_script": "목표를 이루려면 [  ]해야 한다! 힘출 노(努)와 노력할 력(力)이가지...",
+      "literacy_hint": "힘쓸 면(勉)과 함께 노력해야 한단다."
+    }
+  ]
+}

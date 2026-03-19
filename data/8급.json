@@ -1,0 +1,185 @@
+{
+  "level": "8급",
+  "master_kanji_count": 100,
+  "categories": [
+    {
+      "category_name": "자연과 시간",
+      "kanji_count": 18,
+      "kanji_list": [
+        {"kanji": "水", "meaning": "물 수"},
+        {"kanji": "海", "meaning": "바다 해"},
+        {"kanji": "洋", "meaning": "큰 바다 양"},
+        {"kanji": "泉", "meaning": "샘 천"},
+        {"kanji": "雲", "meaning": "구름 운"},
+        {"kanji": "雪", "meaning": "눈 설"},
+        {"kanji": "風", "meaning": "바람 풍"},
+        {"kanji": "呂", "meaning": "음률 려"},
+        {"kanji": "晩", "meaning": "늦을 만"},
+        {"kanji": "夜", "meaning": "밤 야"},
+        {"kanji": "朝", "meaning": "아침 조"},
+        {"kanji": "夕", "meaning": "저녁 석"},
+        {"kanji": "春", "meaning": "봄 춘"},
+        {"kanji": "夏", "meaning": "여름 하"},
+        {"kanji": "秋", "meaning": "가을 추"},
+        {"kanji": "冬", "meaning": "겨울 동"},
+        {"kanji": "曜", "meaning": "요일 요"},
+        {"kanji": "晝", "meaning": "낮 주"}
+      ]
+    },
+    {
+      "category_name": "신체와 성품",
+      "kanji_count": 15,
+      "kanji_list": [
+        {"kanji": "身", "meaning": "몸 신"},
+        {"kanji": "體", "meaning": "몸 체"},
+        {"kanji": "首", "meaning": "머리 수"},
+        {"kanji": "足", "meaning": "발 족"},
+        {"kanji": "鼻", "meaning": "코 비"},
+        {"kanji": "舌", "meaning": "혀 설"},
+        {"kanji": "齒", "meaning": "이 치"},
+        {"kanji": "顔", "meaning": "얼굴 안"},
+        {"kanji": "孝", "meaning": "효도 효"},
+        {"kanji": "忠", "meaning": "충성 충"},
+        {"kanji": "仁", "meaning": "어질 인"},
+        {"kanji": "義", "meaning": "옳을 의"},
+        {"kanji": "禮", "meaning": "예도 례"},
+        {"kanji": "智", "meaning": "지혜 지"},
+        {"kanji": "信", "meaning": "믿을 신"}
+      ]
+    },
+    {
+      "category_name": "교육과 사회",
+      "kanji_count": 22,
+      "kanji_list": [
+        {"kanji": "校", "meaning": "학교 교"},
+        {"kanji": "育", "meaning": "기를 육"},
+        {"kanji": "敎", "meaning": "가르칠 교"},
+        {"kanji": "室", "meaning": "집 실"},
+        {"kanji": "習", "meaning": "익힐 습"},
+        {"kanji": "練", "meaning": "익힐 련"},
+        {"kanji": "題", "meaning": "제목 제"},
+        {"kanji": "答", "meaning": "대답 답"},
+        {"kanji": "文", "meaning": "글월 문"},
+        {"kanji": "字", "meaning": "글자 자"},
+        {"kanji": "書", "meaning": "글 서"},
+        {"kanji": "記", "meaning": "기록할 기"},
+        {"kanji": "圖", "meaning": "그림 도"},
+        {"kanji": "画", "meaning": "그림 화"},
+        {"kanji": "店", "meaning": "가게 점"},
+        {"kanji": "術", "meaning": "재주 술"},
+        {"kanji": "業", "meaning": "업업 업"},
+        {"kanji": "農", "meaning": "농사 농"},
+        {"kanji": "商", "meaning": "장사 상"}
+      ]
+    },
+    {
+      "category_name": "방향과 위치 및 수량",
+      "kanji_count": 15,
+      "kanji_list": [
+        {"kanji": "前", "meaning": "앞 전"},
+        {"kanji": "後", "meaning": "뒤 후"},
+        {"kanji": "左", "meaning": "왼 좌"},
+        {"kanji": "右", "meaning": "오른 우"},
+        {"kanji": "表", "meaning": "겉 표"},
+        {"kanji": "裏", "meaning": "속 리"},
+        {"kanji": "遠", "meaning": "멀 원"},
+        {"kanji": "近", "meaning": "가까울 근"},
+        {"kanji": "高", "meaning": "높을 고"},
+        {"kanji": "低", "meaning": "낮을 저"},
+        {"kanji": "重", "meaning": "무거울 중"},
+        {"kanji": "輕", "meaning": "가벼울 경"},
+        {"kanji": "度", "meaning": "법도 도"},
+        {"kanji": "量", "meaning": "헤아릴 량"},
+        {"kanji": "數", "meaning": "셀 수"}
+      ]
+    },
+    {
+      "category_name": "생활과 행동",
+      "kanji_count": 30,
+      "kanji_list": [
+        {"kanji": "家", "meaning": "집 가"},
+        {"kanji": "族", "meaning": "겨레 족"},
+        {"kanji": "親", "meaning": "친할 친"},
+        {"kanji": "戚", "meaning": "친척 척"},
+        {"kanji": "友", "meaning": "벗 우"},
+        {"kanji": "朋", "meaning": "벗 붕"},
+        {"kanji": "食", "meaning": "먹을 식"},
+        {"kanji": "飮", "meaning": "마실 음"},
+        {"kanji": "衣", "meaning": "옷 의"},
+        {"kanji": "住", "meaning": "살 주"},
+        {"kanji": "買", "meaning": "살 매"},
+        {"kanji": "賣", "meaning": "팔 매"},
+        {"kanji": "行", "meaning": "다닐 행"},
+        {"kanji": "來", "meaning": "올 래"},
+        {"kanji": "去", "meaning": "갈 거"},
+        {"kanji": "歸", "meaning": "돌아올 귀"},
+        {"kanji": "動", "meaning": "움직일 동"},
+        {"kanji": "靜", "meaning": "고요할 정"},
+        {"kanji": "視", "meaning": "볼 시"},
+        {"kanji": "聽", "meaning": "들을 청"},
+        {"kanji": "言", "meaning": "말씀 언"},
+        {"kanji": "語", "meaning": "말씀 어"},
+        {"kanji": "讀", "meaning": "읽을 독"},
+        {"kanji": "寫", "meaning": "베낄 사"},
+        {"kanji": "思", "meaning": "생각 사"},
+        {"kanji": "想", "meaning": "생각 상"},
+        {"kanji": "愛", "meaning": "사랑 애"},
+        {"kanji": "樂", "meaning": "즐거울 락"},
+        {"kanji": "歌", "meaning": "노래 가"},
+        {"kanji": "舞", "meaning": "춤출 무"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q8_01",
+      "category": "자연과 시간",
+      "required_kanji": ["春", "夏"],
+      "word_hanja": "春夏",
+      "word_hangul": "춘하",
+      "meaning": "봄과 여름",
+      "game_script": "따뜻한 계절이다! [  ]는 언제 오지? 봄 춘(春)과 여름 하(夏)가 이어진단다.",
+      "literacy_hint": "계절을 나타내는 한자들이야."
+    },
+    {
+      "id": "q8_02",
+      "category": "신체와 성품",
+      "required_kanji": ["孝", "忠"],
+      "word_hanja": "孝忠",
+      "word_hangul": "효충",
+      "meaning": "효도하고 충성하는 마음",
+      "game_script": "할머니께 잘 모셔야지. 이게 바로 [  ]이구나!",
+      "literacy_hint": "효도 효(孝)와 충성 충(忠)은 올바른 성품이란다."
+    },
+    {
+      "id": "q8_03",
+      "category": "생활과 행동",
+      "required_kanji": ["買", "賣"],
+      "word_hanja": "買賣",
+      "word_hangul": "매매",
+      "meaning": "물건을 사고팔기",
+      "game_script": "시장에 가니 많은 물건들이 있어! [  ]가 계속 일어난단다.",
+      "literacy_hint": "살 매(買)와 팔 매(賣)를 합쳐서 물건을 사고파는 것을 말한다."
+    },
+    {
+      "id": "q8_04",
+      "category": "방향과 위치 및 수량",
+      "required_kanji": ["前", "後"],
+      "word_hanja": "前後",
+      "word_hangul": "전후",
+      "meaning": "앞뒤, 전후로",
+      "game_script": "줄을 설 때는 앞과 뒤를 봐야지. [  ]의 질서를 지켜야 한단다!",
+      "literacy_hint": "앞 전(前)과 뒤 후(後)를 합쳐서 앞뒤를 나타낸다."
+    },
+    {
+      "id": "q8_05",
+      "category": "교육과 사회",
+      "required_kanji": ["讀", "書"],
+      "word_hanja": "讀書",
+      "word_hangul": "독서",
+      "meaning": "책을 읽기",
+      "game_script": "조용한 도서관에서 [  ]을 해야 해. 마음을 차분히 하고!",
+      "literacy_hint": "읽을 독(讀)과 글 서(書)를 합쳐서 책 읽는 것을 나타낸다."
+    }
+  ]
+}

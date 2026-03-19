@@ -1,0 +1,152 @@
+{
+  "level": "6급",
+  "master_kanji_count": 200,
+  "categories": [
+    {
+      "category_name": "사회와 생활",
+      "kanji_count": 50,
+      "kanji_list": [
+        {"kanji": "洞", "meaning": "마을 동"},
+        {"kanji": "區", "meaning": "지경 구"},
+        {"kanji": "都", "meaning": "도읍 도"},
+        {"kanji": "府", "meaning": "관청 부"},
+        {"kanji": "寺", "meaning": "절 사"},
+        {"kanji": "宿", "meaning": "잠잘 숙"},
+        {"kanji": "橋", "meaning": "다리 교"},
+        {"kanji": "職", "meaning": "직분 직"},
+        {"kanji": "員", "meaning": "수효 원"},
+        {"kanji": "官", "meaning": "벼슬 관"},
+        {"kanji": "婦", "meaning": "며느리 부"},
+        {"kanji": "姑", "meaning": "시어미 고"},
+        {"kanji": "族", "meaning": "겨레 족"},
+        {"kanji": "市", "meaning": "저자 시"},
+        {"kanji": "場", "meaning": "마당 장"},
+        {"kanji": "街", "meaning": "거리 가"},
+        {"kanji": "道", "meaning": "길 도"},
+        {"kanji": "路", "meaning": "길 로"},
+        {"kanji": "驛", "meaning": "역 역"},
+        {"kanji": "港", "meaning": "항구 항"}
+      ]
+    },
+    {
+      "category_name": "자연과 우주",
+      "kanji_count": 40,
+      "kanji_list": [
+        {"kanji": "霜", "meaning": "서리 상"},
+        {"kanji": "霧", "meaning": "안개 무"},
+        {"kanji": "氷", "meaning": "얼음 빙"},
+        {"kanji": "炭", "meaning": "숯 탄"},
+        {"kanji": "泉", "meaning": "샘 천"},
+        {"kanji": "岸", "meaning": "언덕 안"},
+        {"kanji": "嶺", "meaning": "고개 령"},
+        {"kanji": "根", "meaning": "뿌리 근"},
+        {"kanji": "枝", "meaning": "가지 지"},
+        {"kanji": "葉", "meaning": "잎 엽"},
+        {"kanji": "果", "meaning": "열매 과"},
+        {"kanji": "獸", "meaning": "짐승 수"},
+        {"kanji": "漁", "meaning": "고기 잡을 어"},
+        {"kanji": "蟲", "meaning": "벌레 충"},
+        {"kanji": "鳥", "meaning": "새 조"},
+        {"kanji": "魚", "meaning": "물고기 어"},
+        {"kanji": "星", "meaning": "별 성"},
+        {"kanji": "月", "meaning": "달 월"},
+        {"kanji": "日", "meaning": "날 일"},
+        {"kanji": "午", "meaning": "낮 오"}
+      ]
+    },
+    {
+      "category_name": "추상적 개념과 상태",
+      "kanji_count": 60,
+      "kanji_list": [
+        {"kanji": "極", "meaning": "다할 극"},
+        {"kanji": "最", "meaning": "가장 최"},
+        {"kanji": "復", "meaning": "회복할 복"},
+        {"kanji": "各", "meaning": "각각 각"},
+        {"kanji": "共", "meaning": "한가지 공"},
+        {"kanji": "特", "meaning": "특이할 특"},
+        {"kanji": "善", "meaning": "착할 선"},
+        {"kanji": "惡", "meaning": "악할 악"},
+        {"kanji": "貴", "meaning": "귀할 귀"},
+        {"kanji": "賤", "meaning": "천할 천"},
+        {"kanji": "眞", "meaning": "참 진"},
+        {"kanji": "假", "meaning": "거짓 가"},
+        {"kanji": "獨", "meaning": "홀로 독"},
+        {"kanji": "重", "meaning": "무거울 중"},
+        {"kanji": "輕", "meaning": "가벼울 경"},
+        {"kanji": "快", "meaning": "쾌할 쾌"},
+        {"kanji": "遲", "meaning": "늦을 지"},
+        {"kanji": "速", "meaning": "빠를 속"},
+        {"kanji": "多", "meaning": "많을 다"},
+        {"kanji": "少", "meaning": "적을 소"}
+      ]
+    },
+    {
+      "category_name": "활동과 동작",
+      "kanji_count": 50,
+      "kanji_list": [
+        {"kanji": "運", "meaning": "옮길 운"},
+        {"kanji": "動", "meaning": "움직일 동"},
+        {"kanji": "移", "meaning": "옮길 이"},
+        {"kanji": "散", "meaning": "흩어질 산"},
+        {"kanji": "結", "meaning": "맺을 결"},
+        {"kanji": "解", "meaning": "풀 해"},
+        {"kanji": "藝", "meaning": "재주 예"},
+        {"kanji": "術", "meaning": "재주 술"},
+        {"kanji": "試", "meaning": "시험 시"},
+        {"kanji": "驗", "meaning": "시험 험"},
+        {"kanji": "題", "meaning": "제목 제"},
+        {"kanji": "案", "meaning": "책상 안"},
+        {"kanji": "展", "meaning": "펼 전"},
+        {"kanji": "示", "meaning": "보일 시"},
+        {"kanji": "現", "meaning": "나타날 현"},
+        {"kanji": "出", "meaning": "날 출"},
+        {"kanji": "入", "meaning": "들 입"},
+        {"kanji": "上", "meaning": "윗 상"},
+        {"kanji": "下", "meaning": "아래 하"},
+        {"kanji": "過", "meaning": "지날 과"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q6_01",
+      "category": "사회와 생활",
+      "required_kanji": ["都", "市"],
+      "word_hanja": "都市",
+      "word_hangul": "도시",
+      "meaning": "도읍, 큰 도시",
+      "game_script": "높은 빌딩들이 많은 큰 도시에 왔어! [  ]는 사람들이 많이 사는 곳이야.",
+      "literacy_hint": "도읍 도(都)와 저자 시(市)를 합쳐서 큰 도시를 나타낸다."
+    },
+    {
+      "id": "q6_02",
+      "category": "자연과 우주",
+      "required_kanji": ["根", "葉"],
+      "word_hanja": "根葉",
+      "word_hangul": "근엽",
+      "meaning": "뿌리와 잎",
+      "game_script": "나무를 자세히 보니 땅속 [  ]와 위의 [  ]가 함께 자란다!",
+      "literacy_hint": "뿌리 근(根)과 잎 엽(葉)은 식물의 중요한 부분이야."
+    },
+    {
+      "id": "q6_03",
+      "category": "추상적 개념과 상태",
+      "required_kanji": ["善", "惡"],
+      "word_hanja": "善惡",
+      "word_hangul": "선악",
+      "meaning": "선함과 악함",
+      "game_script": "올바른 판단을 위해서는 [  ]를 구분할 줄 알아야 한다!",
+      "literacy_hint": "착할 선(善)과 악할 악(惡)을 합쳐서 좋고 나쁜 것을 나타낸다."
+    },
+    {
+      "id": "q6_04",
+      "category": "활동과 동작",
+      "required_kanji": ["展", "示"],
+      "word_hanja": "展示",
+      "word_hangul": "전시",
+      "meaning": "펼쳐 보이기",
+      "game_script": "박물관에서 소중한 유물들을 [  ]하고 있어. 모두 구경해보자!",
+      "literacy_hint": "펼 전(展)과 보일 시(示)를 합쳐서 펼쳐 보이는 것을 나타낸다."
+    }
+  ]
+}

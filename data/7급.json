@@ -1,0 +1,152 @@
+{
+  "level": "7급",
+  "master_kanji_count": 200,
+  "categories": [
+    {
+      "category_name": "자연과 상태",
+      "kanji_count": 40,
+      "kanji_list": [
+        {"kanji": "陽", "meaning": "볕 양"},
+        {"kanji": "陰", "meaning": "그늘 음"},
+        {"kanji": "雲", "meaning": "구름 운"},
+        {"kanji": "露", "meaning": "이슬 로"},
+        {"kanji": "電", "meaning": "번개 전"},
+        {"kanji": "海", "meaning": "바다 해"},
+        {"kanji": "島", "meaning": "섬 도"},
+        {"kanji": "谷", "meaning": "골 곡"},
+        {"kanji": "强", "meaning": "강할 강"},
+        {"kanji": "弱", "meaning": "약할 약"},
+        {"kanji": "速", "meaning": "빠를 속"},
+        {"kanji": "遲", "meaning": "늦을 지"},
+        {"kanji": "淸", "meaning": "맑을 청"},
+        {"kanji": "濁", "meaning": "흐릴 탁"},
+        {"kanji": "暖", "meaning": "따뜻할 난"},
+        {"kanji": "寒", "meaning": "찰 한"},
+        {"kanji": "新", "meaning": "새 신"},
+        {"kanji": "舊", "meaning": "묵은 구"},
+        {"kanji": "美", "meaning": "아름다울 미"},
+        {"kanji": "醜", "meaning": "미울 추"}
+      ]
+    },
+    {
+      "category_name": "인간 관계와 사회",
+      "kanji_count": 50,
+      "kanji_list": [
+        {"kanji": "孫", "meaning": "손자 손"},
+        {"kanji": "祖", "meaning": "할아비 조"},
+        {"kanji": "姑", "meaning": "시어미 고"},
+        {"kanji": "夫", "meaning": "남편 부"},
+        {"kanji": "婦", "meaning": "아내 부"},
+        {"kanji": "兒", "meaning": "아이 아"},
+        {"kanji": "童", "meaning": "아이 동"},
+        {"kanji": "官", "meaning": "벼슬 관"},
+        {"kanji": "民", "meaning": "백성 민"},
+        {"kanji": "兵", "meaning": "군사 병"},
+        {"kanji": "臣", "meaning": "신하 신"},
+        {"kanji": "邑", "meaning": "고을 읍"},
+        {"kanji": "村", "meaning": "마을 촌"},
+        {"kanji": "市", "meaning": "저자 시"},
+        {"kanji": "場", "meaning": "마당 장"},
+        {"kanji": "國", "meaning": "나라 국"},
+        {"kanji": "家", "meaning": "집 가"},
+        {"kanji": "門", "meaning": "문 문"},
+        {"kanji": "族", "meaning": "겨레 족"},
+        {"kanji": "邦", "meaning": "나라 방"}
+      ]
+    },
+    {
+      "category_name": "행동과 감정",
+      "kanji_count": 60,
+      "kanji_list": [
+        {"kanji": "走", "meaning": "달릴 주"},
+        {"kanji": "登", "meaning": "오를 등"},
+        {"kanji": "降", "meaning": "내릴 강"},
+        {"kanji": "拾", "meaning": "줍을 습"},
+        {"kanji": "打", "meaning": "칠 타"},
+        {"kanji": "投", "meaning": "던질 투"},
+        {"kanji": "借", "meaning": "빌릴 차"},
+        {"kanji": "給", "meaning": "줄 급"},
+        {"kanji": "怒", "meaning": "성낼 노"},
+        {"kanji": "喜", "meaning": "기쁠 희"},
+        {"kanji": "哀", "meaning": "슬플 애"},
+        {"kanji": "樂", "meaning": "즐거울 락"},
+        {"kanji": "苦", "meaning": "쓸 고"},
+        {"kanji": "欲", "meaning": "하고자 할 욕"},
+        {"kanji": "求", "meaning": "구할 구"},
+        {"kanji": "離", "meaning": "떠날 리"},
+        {"kanji": "合", "meaning": "합할 합"},
+        {"kanji": "開", "meaning": "열 개"},
+        {"kanji": "閉", "meaning": "닫을 폐"},
+        {"kanji": "分", "meaning": "나눌 분"}
+      ]
+    },
+    {
+      "category_name": "교육과 도구",
+      "kanji_count": 50,
+      "kanji_list": [
+        {"kanji": "講", "meaning": "익힐 강"},
+        {"kanji": "習", "meaning": "익힐 습"},
+        {"kanji": "筆", "meaning": "붓 필"},
+        {"kanji": "紙", "meaning": "종이 지"},
+        {"kanji": "墨", "meaning": "먹 묵"},
+        {"kanji": "硯", "meaning": "벼루 연"},
+        {"kanji": "冊", "meaning": "책 책"},
+        {"kanji": "詩", "meaning": "시 시"},
+        {"kanji": "刀", "meaning": "칼 도"},
+        {"kanji": "弓", "meaning": "활 궁"},
+        {"kanji": "矢", "meaning": "화살 시"},
+        {"kanji": "器", "meaning": "그릇 기"},
+        {"kanji": "服", "meaning": "옷 복"},
+        {"kanji": "藥", "meaning": "약 약"},
+        {"kanji": "書", "meaning": "글 서"},
+        {"kanji": "物", "meaning": "물건 물"},
+        {"kanji": "財", "meaning": "재물 재"},
+        {"kanji": "金", "meaning": "쇠 금"},
+        {"kanji": "銀", "meaning": "은 은"},
+        {"kanji": "銅", "meaning": "구리 동"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q7_01",
+      "category": "자연과 상태",
+      "required_kanji": ["陽", "陰"],
+      "word_hanja": "陽陰",
+      "word_hangul": "양음",
+      "meaning": "양지와 음지",
+      "game_script": "산책로를 걷다 보니 햇빛이 나는 곳도, 어두운 곳도 있네. [  ]가 모두 필요해!",
+      "literacy_hint": "볕 양(陽)과 그늘 음(陰)을 합쳐서 밝음과 어둠을 나타낸다."
+    },
+    {
+      "id": "q7_02",
+      "category": "인간 관계와 사회",
+      "required_kanji": ["祖", "孫"],
+      "word_hanja": "祖孫",
+      "word_hangul": "조손",
+      "meaning": "할아버지와 손자",
+      "game_script": "할아비 할머니와 손자손녀는 [  ]의 관계란다. 세대가 이어진 것이야!",
+      "literacy_hint": "할아비 조(祖)와 손자 손(孫)을 합쳐서 두 세대의 관계를 나타낸다."
+    },
+    {
+      "id": "q7_03",
+      "category": "행동과 감정",
+      "required_kanji": ["喜", "怒"],
+      "word_hanja": "喜怒",
+      "word_hangul": "희노",
+      "meaning": "기쁨과 성냄",
+      "game_script": "사람의 마음은 변하기 마련이야. [  ]를 다스릴 줄 알아야 한단다.",
+      "literacy_hint": "기쁠 희(喜)와 성낼 노(怒)를 합쳐서 감정을 나타낸다."
+    },
+    {
+      "id": "q7_04",
+      "category": "교육과 도구",
+      "required_kanji": ["筆", "紙"],
+      "word_hanja": "筆紙",
+      "word_hangul": "필지",
+      "meaning": "붓과 종이",
+      "game_script": "글씨를 쓸 때 [  ]는 필수야! 서예를 배워보자.",
+      "literacy_hint": "붓 필(筆)과 종이 지(紙)를 합쳐서 글을 쓰는 도구를 나타낸다."
+    }
+  ]
+}

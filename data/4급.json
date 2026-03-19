@@ -1,0 +1,152 @@
+{
+  "level": "4급",
+  "master_kanji_count": 300,
+  "categories": [
+    {
+      "category_name": "사회 체계와 제도",
+      "kanji_count": 80,
+      "kanji_list": [
+        {"kanji": "憲", "meaning": "법 헌"},
+        {"kanji": "律", "meaning": "법률 률"},
+        {"kanji": "審", "meaning": "살필 심"},
+        {"kanji": "判", "meaning": "판단할 판"},
+        {"kanji": "署", "meaning": "관청 서"},
+        {"kanji": "域", "meaning": "지경 역"},
+        {"kanji": "衆", "meaning": "무리 중"},
+        {"kanji": "統", "meaning": "통할 통"},
+        {"kanji": "制", "meaning": "절제할 제"},
+        {"kanji": "度", "meaning": "법도 도"},
+        {"kanji": "稅", "meaning": "세금 세"},
+        {"kanji": "額", "meaning": "이마 액"},
+        {"kanji": "債", "meaning": "빚 채"},
+        {"kanji": "貯", "meaning": "쌓을 저"},
+        {"kanji": "支", "meaning": "지탱할 지"},
+        {"kanji": "損", "meaning": "덜 손"},
+        {"kanji": "益", "meaning": "도움 익"},
+        {"kanji": "財", "meaning": "재물 재"},
+        {"kanji": "貸", "meaning": "빌려줄 대"},
+        {"kanji": "借", "meaning": "빌릴 차"}
+      ]
+    },
+    {
+      "category_name": "전문 학문과 사상",
+      "kanji_count": 70,
+      "kanji_list": [
+        {"kanji": "倫", "meaning": "인륜 륜"},
+        {"kanji": "德", "meaning": "덕 덕"},
+        {"kanji": "聖", "meaning": "성스러울 성"},
+        {"kanji": "尊", "meaning": "높을 존"},
+        {"kanji": "敬", "meaning": "공경할 경"},
+        {"kanji": "念", "meaning": "생각 념"},
+        {"kanji": "信", "meaning": "믿을 신"},
+        {"kanji": "義", "meaning": "옳을 의"},
+        {"kanji": "宗", "meaning": "종파 종"},
+        {"kanji": "派", "meaning": "파 파"},
+        {"kanji": "質", "meaning": "바탕 질"},
+        {"kanji": "量", "meaning": "헤아릴 량"},
+        {"kanji": "密", "meaning": "빽빽할 밀"},
+        {"kanji": "虛", "meaning": "빌 허"},
+        {"kanji": "彈", "meaning": "알 탄"},
+        {"kanji": "導", "meaning": "인도할 도"},
+        {"kanji": "理", "meaning": "다스릴 리"},
+        {"kanji": "學", "meaning": "배울 학"},
+        {"kanji": "法", "meaning": "법 법"},
+        {"kanji": "則", "meaning": "법칙 칙"}
+      ]
+    },
+    {
+      "category_name": "복합 동작과 상태",
+      "kanji_count": 80,
+      "kanji_list": [
+        {"kanji": "展", "meaning": "펼 전"},
+        {"kanji": "縮", "meaning": "줄일 축"},
+        {"kanji": "擴", "meaning": "넓힐 확"},
+        {"kanji": "促", "meaning": "재촉할 촉"},
+        {"kanji": "停", "meaning": "머무를 정"},
+        {"kanji": "止", "meaning": "그칠 지"},
+        {"kanji": "進", "meaning": "나아갈 진"},
+        {"kanji": "退", "meaning": "물러날 퇴"},
+        {"kanji": "昇", "meaning": "오를 승"},
+        {"kanji": "降", "meaning": "내릴 강"},
+        {"kanji": "上", "meaning": "윗 상"},
+        {"kanji": "下", "meaning": "아래 하"},
+        {"kanji": "謙", "meaning": "겸손할 겸"},
+        {"kanji": "愼", "meaning": "삼갈 신"},
+        {"kanji": "忍", "meaning": "참을 인"},
+        {"kanji": "恨", "meaning": "한 한"},
+        {"kanji": "惑", "meaning": "미혹할 혹"},
+        {"kanji": "誘", "meaning": "꾀일 유"},
+        {"kanji": "誘", "meaning": "이끌 유"},
+        {"kanji": "引", "meaning": "끌 인"}
+      ]
+    },
+    {
+      "category_name": "일상 어휘 심화",
+      "kanji_count": 70,
+      "kanji_list": [
+        {"kanji": "養", "meaning": "기을 양"},
+        {"kanji": "療", "meaning": "병 고칠 료"},
+        {"kanji": "境", "meaning": "지경 경"},
+        {"kanji": "態", "meaning": "모습 태"},
+        {"kanji": "象", "meaning": "코끼리 상"},
+        {"kanji": "像", "meaning": "형상 상"},
+        {"kanji": "敵", "meaning": "원수 적"},
+        {"kanji": "災", "meaning": "재앙 재"},
+        {"kanji": "害", "meaning": "해칠 해"},
+        {"kanji": "犯", "meaning": "범할 범"},
+        {"kanji": "罪", "meaning": "허물 죄"},
+        {"kanji": "監", "meaning": "볼 감"},
+        {"kanji": "察", "meaning": "살필 찰"},
+        {"kanji": "證", "meaning": "증명할 증"},
+        {"kanji": "據", "meaning": "근거 거"},
+        {"kanji": "肯", "meaning": "허락할 긍"},
+        {"kanji": "否", "meaning": "아닐 부"},
+        {"kanji": "祈", "meaning": "빌 기"},
+        {"kanji": "祝", "meaning": "빌 축"},
+        {"kanji": "咎", "meaning": "허물 구"}
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "q4_01",
+      "category": "사회 체계와 제도",
+      "required_kanji": ["憲", "法"],
+      "word_hanja": "憲法",
+      "word_hangul": "헌법",
+      "meaning": "나라의 기본 법",
+      "game_script": "나라의 모든 법은 [  ]를 따른단다. 이것이 최고의 법이야!",
+      "literacy_hint": "법 헌(憲)과 법 법(法)을 합쳐서 가장 기본이 되는 법을 나타낸다."
+    },
+    {
+      "id": "q4_02",
+      "category": "전문 학문과 사상",
+      "required_kanji": ["倫", "理"],
+      "word_hanja": "倫理",
+      "word_hangul": "윤리",
+      "meaning": "인간의 올바른 도리",
+      "game_script": "사회에서 함께 살아가려면 [  ]를 지켜야 한단다!",
+      "literacy_hint": "인륜 륜(倫)과 이치 리(理)를 합쳐서 올바른 도리를 나타낸다."
+    },
+    {
+      "id": "q4_03",
+      "category": "복합 동작과 상태",
+      "required_kanji": ["進", "退"],
+      "word_hanja": "進退",
+      "word_hangul": "진퇴",
+      "meaning": "나아감과 물러남",
+      "game_script": "인생에서는 [  ]의 순간들이 있단다. 현명한 판단이 필요해!",
+      "literacy_hint": "나아갈 진(進)과 물러날 퇴(退)를 합쳐서 앞뒤 진퇴를 나타낸다."
+    },
+    {
+      "id": "q4_04",
+      "category": "일상 어휘 심화",
+      "required_kanji": ["災", "害"],
+      "word_hanja": "災害",
+      "word_hangul": "재해",
+      "meaning": "자연재해, 해를 끼치는 일",
+      "game_script": "폭우로 인한 [  ]가 있었어. 모두가 함께 극복해야 한단다!",
+      "literacy_hint": "재앙 재(災)와 해칠 해(害)를 합쳐서 자연이 끼치는 피해를 나타낸다."
+    }
+  ]
+}
