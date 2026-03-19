@@ -1570,6 +1570,182 @@ footer {
     margin-top: 8px;
 }
 
+/* ===== 대시보드 ===== */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  background: linear-gradient(135deg, #667eea12, #764ba212);
+  border-radius: 16px;
+  padding: 20px 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.dash-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.dash-number {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #667eea;
+  line-height: 1;
+}
+.dash-label {
+  font-size: 0.72rem;
+  color: #888;
+  text-align: center;
+}
+
+/* ===== 별 (Stars) ===== */
+.stars-wrap {
+  display: inline-flex;
+  gap: 3px;
+}
+.star {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.star-on  { color: #f39c12; }
+.star-off { color: #ddd; }
+
+/* 결과 화면 별 — 크고 애니메이션 */
+.result-stars {
+  margin: 10px 0 18px;
+}
+.result-stars .star {
+  font-size: 2.6rem;
+  opacity: 0;
+  animation: starPop 0.4s ease forwards;
+}
+@keyframes starPop {
+  0%   { transform: scale(0);    opacity: 0; }
+  70%  { transform: scale(1.35); opacity: 1; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+/* ===== 콤보 배지 ===== */
+.combo-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #e67e22, #e74c3c);
+  color: white;
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-left: 6px;
+  animation: comboPulse 0.35s ease;
+  vertical-align: middle;
+}
+@keyframes comboPulse {
+  0%   { transform: scale(0.7); }
+  60%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+.quiz-score-wrap {
+  display: flex;
+  align-items: center;
+}
+
+/* ===== 급수 버튼 개선 ===== */
+.level-btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  width: 100%;
+}
+.level-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.level-btn--started {
+  background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+}
+.level-accuracy {
+  font-size: 0.75rem;
+  color: #667eea;
+  font-weight: 700;
+}
+
+/* ===== 단계 버튼 별 / 오답 ===== */
+.batch-stars {
+  display: block;
+}
+.batch-stars .star {
+  font-size: 0.8rem;
+}
+.batch-wrong-count {
+  font-size: 0.68rem;
+  background: #fef3e6;
+  color: #c0460a;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-weight: 700;
+}
+
+/* ===== 오답 복습 버튼 ===== */
+.btn-wrong-review {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border: 2px solid #e67e22;
+  border-radius: 12px;
+  color: #a04000;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  margin-bottom: 16px;
+  transition: all 0.25s ease;
+}
+.btn-wrong-review:hover {
+  background: linear-gradient(135deg, #e67e22, #d35400);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(230, 126, 34, 0.4);
+}
+
+/* ===== 오답 복습 퀴즈 헤더 ===== */
+.quiz-header--review {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+.quiz-type-label--review {
+  background: #fff3e0 !important;
+  color: #c0460a !important;
+}
+.quiz-progress-fill--review {
+  background: linear-gradient(90deg, #e67e22, #e74c3c) !important;
+}
+
+/* ===== 결과 메시지 ===== */
+.wrong-save-msg {
+  font-size: 0.88rem;
+  color: #c05000;
+  background: #fff3e0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.perfect-msg {
+  font-size: 0.9rem;
+  color: #27ae60;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.streak-msg {
+  font-size: 0.88rem;
+  color: #e67e22;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 /* ===== 학습 화면 ===== */
 .study-screen {
     padding: 24px 20px 32px;
@@ -1661,6 +1837,71 @@ footer {
     font-size: 1rem;
     font-weight: 700;
     border-radius: 12px;
+}
+
+/* ===== 카드 플립 (study-card 전체 오버라이드) ===== */
+.study-card {
+    display: block !important;
+    position: relative;
+    cursor: pointer;
+    height: 130px;
+    perspective: 700px;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    gap: 0 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+.study-card:hover { transform: none !important; box-shadow: none !important; }
+.study-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+.study-card.flipped .study-card-inner {
+    transform: rotateY(180deg);
+}
+.study-card-front,
+.study-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 14px;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.study-card-front {
+    background: linear-gradient(135deg, #f8f9ff 0%, #eef1ff 100%);
+    border: 2px solid #d0d8f8;
+    transition: box-shadow 0.2s ease;
+}
+.study-card:hover .study-card-front {
+    box-shadow: 0 4px 14px rgba(102, 126, 234, 0.25);
+}
+.study-card-back {
+    background: linear-gradient(135deg, #e8f8ee 0%, #c8f0d4 100%);
+    border: 2px solid #27ae60;
+    transform: rotateY(180deg);
+}
+.flip-hint {
+    font-size: 0.62rem;
+    color: #b0b8e0;
+    margin-top: 3px;
+}
+.study-kanji--sm {
+    font-size: 1.3rem !important;
+    color: #667eea !important;
 }
 
 /* ===== 퀴즈 진행 프로그레스 바 ===== */
