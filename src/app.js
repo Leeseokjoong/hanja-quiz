@@ -313,7 +313,7 @@ function renderBatchComplete() {
     state.learnedKanjiByLevel[level] = phase1Data.map(k => k.kanji);
   }
 
-  localStorage.setItem('hanja_state', JSON.stringify(state));
+  saveState();
 
   document.getElementById('app').innerHTML = `
     <div class="result-screen slideUp">
@@ -369,7 +369,7 @@ function getLearnedKanjiSet(level) {
 
 function startPhase2(level) {
   state.currentLevel = level;
-  localStorage.setItem('hanja_state', JSON.stringify(state));
+  saveState();
 
   const currentIdx = LEVEL_ORDER.indexOf(level);
   const kanjiSet = getLearnedKanjiSet(level);
@@ -489,7 +489,7 @@ function renderPhase2Complete() {
 // ===== 급수 선택 =====
 function renderLevelSelect() {
   state.currentLevel = null;
-  localStorage.setItem('hanja_state', JSON.stringify(state));
+  saveState();
 
   const buttons = LEVEL_ORDER.map(level => {
     const completed = (state.batchComplete[level] || []).length;
@@ -512,7 +512,7 @@ function renderLevelSelect() {
 
 async function selectLevel(level) {
   state.currentLevel = level;
-  localStorage.setItem('hanja_state', JSON.stringify(state));
+  saveState();
 
   document.getElementById('app').innerHTML = `
     <div class="quiz-screen">
@@ -521,6 +521,14 @@ async function selectLevel(level) {
 
   await loadPhase1Data(level);
   renderBatchSelect();
+}
+
+// ===== 상태 저장 (localStorage + Firestore 동기화) =====
+function saveState() {
+  saveState();
+  if (typeof saveStateToFirestore === 'function') {
+    saveStateToFirestore();
+  }
 }
 
 // ===== 공통 유틸 =====

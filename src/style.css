@@ -1321,6 +1321,66 @@ footer {
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
+/* ===== 로그인 UI ===== */
+#auth-area {
+    margin-top: 12px;
+}
+
+.auth-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.auth-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.auth-name {
+    font-weight: 600;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.auth-btn {
+    padding: 7px 16px;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+    color: #555;
+    transition: all 0.2s ease;
+}
+
+.auth-btn:hover {
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.auth-login {
+    display: inline-flex;
+    align-items: center;
+    border-color: #ddd;
+    font-weight: 600;
+    color: #333;
+}
+
+.auth-login:hover {
+    border-color: #4285F4;
+    color: #4285F4;
+    box-shadow: 0 2px 8px rgba(66, 133, 244, 0.2);
+}
+
 /* 로딩 메시지 */
 .loading-msg {
     text-align: center;
