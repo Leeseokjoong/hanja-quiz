@@ -2,6 +2,9 @@
 
 let currentUser = null;
 
+// 페이지 로드 시 방문자 카운터 실행
+trackAndShowVisitors();
+
 // 로그인 상태 감지 (페이지 로드 시 자동 실행)
 auth.onAuthStateChanged(async (user) => {
   currentUser = user;
@@ -61,6 +64,25 @@ async function saveStateToFirestore() {
     });
   } catch (e) {
     console.error('Firestore 저장 실패:', e);
+  }
+}
+
+// ===== 방문자 카운터 =====
+async function trackAndShowVisitors() {
+  const ref = db.collection('stats').doc('visitors');
+  try {
+    // 방문 수 1 증가 (원자적 연산)
+    await ref.set({
+      total: firebase.firestore.FieldValue.increment(1)
+    }, { merge: true });
+
+    // 최신 값 읽어서 표시
+    const doc = await ref.get();
+    const total = doc.data()?.total || 0;
+    const el = document.getElementById('visitor-count');
+    if (el) el.textContent = `누적 방문자 ${total.toLocaleString()}명`;
+  } catch (e) {
+    // Firebase 미설정 시 조용히 무시
   }
 }
 
