@@ -523,12 +523,9 @@ async function selectLevel(level) {
   renderBatchSelect();
 }
 
-// ===== 상태 저장 (localStorage + Firestore 동기화) =====
+// ===== 상태 저장 =====
 function saveState() {
-  saveState();
-  if (typeof saveStateToFirestore === 'function') {
-    saveStateToFirestore();
-  }
+  localStorage.setItem('hanja_state', JSON.stringify(state));
 }
 
 // ===== 공통 유틸 =====
